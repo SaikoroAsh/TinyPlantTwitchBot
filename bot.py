@@ -2,6 +2,7 @@ import sys
 from twitchio.ext import commands
 from config import Config
 from commands import load_all_commands
+from data.save_state import save_state
 
 class TinyPlantBot(commands.Bot):
     
@@ -47,6 +48,8 @@ def main():
     print("=" * 50)
     print("🌱 TinyPlant Twitch Bot")
     print("=" * 50)
+
+    save_state()
     
     bot = TinyPlantBot()
     

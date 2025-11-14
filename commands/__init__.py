@@ -7,15 +7,6 @@ import importlib
 from pathlib import Path
 
 def load_all_commands(bot):
-    """
-    Charge automatiquement toutes les commandes depuis ce dossier
-    
-    Chaque fichier .py (sauf __init__.py) est considéré comme une commande
-    et doit contenir une fonction setup(bot)
-    
-    Args:
-        bot: L'instance du bot
-    """
     commands_dir = Path(__file__).parent
     command_files = [f.stem for f in commands_dir.glob('*.py') if f.stem != '__init__']
     

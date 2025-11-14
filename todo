@@ -1,0 +1,16 @@
+# commandes 
+project - explique le projet
+info - donne les données de la capsule
+
+!etat ou !status : affiche température, humidité, lumière
+!arrosage : déclenche l'arrosage (avec cooldown)
+!lumiere : contrôle les LEDs
+
+🔧 Bientôt (intégration hardware)
+Script bridge.py : Communication entre STM32 et bot
+Stockage des données : Fichier JSON ou SQLite
+Sécurité : Cooldowns, permissions, limites
+
+Logs : Enregistrer toutes les actions
+Système de votes : Les viewers votent pour arroser
+Alertes : Notifications si problème
