@@ -1,3 +1,8 @@
 {
-    "logs" : [] 
+    "sensors": {
+        "temperature": 22.5,
+        "humidity_soil": 45,
+        "light_intensity": 300
+    },
+    "last_updated": "2024-06-15T12:34:56Z"
 }

@@ -1,15 +1,19 @@
-# commandes 
+#### CODE ####
 
-!etat ou !status : affiche température, humidité, lumière
-!arrosage : déclenche l'arrosage (avec cooldown)
-!lumiere : contrôle les LEDs
+### commandes 
 
-🔧 Bientôt (intégration hardware)
+✅!etat ou !status : affiche température, humidité, lumière
+🔁!arrosage : déclenche l'arrosage (avec cooldown)
+✅🔁!lumiere : contrôle les LEDs
+## comment formater l'instructon ?
+
+### intégration hardware
 Script bridge.py : Communication entre STM32 et bot
-Stockage des données : Fichier JSON ou SQLite
-Sécurité : Cooldowns, permissions, limites
+✅Stockage des données : Fichier JSON (ou SQLite)
+# demander avis
 
-Logs : Enregistrer toutes les actions
+🔁Logs : Enregistrer toutes les actions
+# trouver comment formater des logs en json
 Alertes : Notifications si problème
 
 
@@ -17,4 +21,21 @@ Alertes : Notifications si problème
 
 ### PAS SÛR
 Système de votes : Les viewers votent pour arroser
-# problème : lisse le résultat
+Sécurité : Cooldowns, permissions, limites
+## problème : lisse le résultat
+
+
+
+#### 3D ####
+mesurer la taille des composants pour modé
+définir la taille du bas de caisse
+
+#### HARDWARE ####
+rapsberry pi 4/5
+Nucleo STM32
+Pompe à eau (+diffuseur)
+Capteur d'humidité DHT22
+Capteur de luminosité
+Capteur température
+Petit Ventilateur type pc
+Ecran
